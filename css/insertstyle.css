@@ -1,0 +1,69 @@
+/* Estilos para el menú de navegación */
+.navbar {
+    background-color: yellowgreen;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: white;
+}
+
+/* Alineación a la izquierda */
+.navbar-collapse {
+    justify-content: flex-start;
+}
+
+a img {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+}
+
+.usuariologin {
+    color: navy !important;
+}
+
+.nav-item :hover {
+    color: navy !important;
+}
+
+form {
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: yellowgreen;
+    padding: 20px;
+}
+
+body {
+    background-color: rgba(24, 103, 5, 0.615) !important;
+}
+
+.textarea {
+    height: 200px !important;
+}
+
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .dropdown-toggle::after {
+        content: "";
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        margin-left: 5px;
+        border-top: 2px solid #fff;
+        border-right: 2px solid #fff;
+        transform: rotate(45deg);
+    }
+}
+
+@media (min-width: 768px) {
+    .hide-desktop {
+        display: none;
+    }
+}

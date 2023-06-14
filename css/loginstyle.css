@@ -1,0 +1,84 @@
+body {
+    background-color: yellowgreen;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #cccccc;
+    border-radius: 15px;
+    width: 250px;
+    margin-bottom: 0; /* Elimina el margen inferior */
+    margin-top: 10px; /* Ajusta el margen superior */
+    height: 400px;
+}
+
+
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top:50px
+    
+}
+
+.button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #45a049;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: yellowgreen;
+}
+
+.errorlogin {
+    background-color: #ffcccc;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+img {
+    border-radius: 50px !important;
+    width: 75px !important;
+    height: 75px !important;
+}
+
+.img-container {
+    /*
+    justify-content: center;
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    /*
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    height: auto;
+    */
+    translate: 115.5% -70%;
+    width: 75px !important;
+    height: 75px !important;
+    overflow: hidden;
+    display: flex;
+
+
+
+}
+h1{
+    margin-top: -20px;
+}
+

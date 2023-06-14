@@ -1,0 +1,67 @@
+ /* Estilos para el menú de navegación */
+ .navbar {
+     background-color: yellowgreen
+         /* rgb(195, 200, 0);*/
+ }
+
+ .navbar-brand,
+ .navbar-nav .nav-link {
+     color: white;
+ }
+
+ /* Alineación a la izquierda */
+ .navbar-collapse {
+     justify-content: flex-start;
+ }
+
+ a img {
+     width: 50px !important;
+     height: 50px !important;
+ }
+
+ .navbar-brand {
+     padding-top: 15px;
+ }
+
+ .usuariologin {
+     color: navy !important;
+     ;
+ }
+
+ .nav-item :hover {
+     color: navy !important
+ }
+
+ body {
+     /*background-color: rgba(145, 83, 6, 0.615) !important;*/
+     background-color: rgba(24, 103, 5, 0.615) !important;
+
+ }
+
+ .imgcarousel {
+     height: 300px !important;
+     width: 300px !important;
+ }
+
+ h5 {
+     color: black;
+ }
+
+ .carousel-control-prev {
+     margin-left: 350px !important;
+     /* Ajusta el valor según sea necesario */
+ }
+
+ .carousel-control-next {
+     margin-right: 350px !important;
+     /* Ajusta el valor según sea necesario */
+ }
+
+ .carousel {
+     margin-top: 150px !important;
+ }
+
+ .enlacecarousel {
+     height: 300px !important;
+     width: 300px !important;
+ }
